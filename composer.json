@@ -12,8 +12,7 @@
   ],
   "require": {
     "aws/aws-sdk-php": "^3.26",
-    "web-token/jwt-signature": "^2.0",
-    "web-token/jwt-signature-algorithm-rsa": "^2.2"
+    "web-token/jwt-framework": "^3.4"
   },
   "autoload": {
     "psr-4": {
