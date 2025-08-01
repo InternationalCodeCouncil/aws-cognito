@@ -11,6 +11,6 @@ class PasswordResetRequiredException extends \Exception
      */
     public function __construct(Throwable $previous = null)
     {
-        parent::__construct(get_class(), 0, $previous);
+        parent::__construct(get_class($this), 0, $previous);
     }
 }
